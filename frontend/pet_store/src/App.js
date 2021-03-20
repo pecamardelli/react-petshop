@@ -31,6 +31,7 @@ function App() {
             <Route path="/search/:keyword" exact component={SearchContainer} />
             <Route path="/edit" component={Edit} />
             <Route path="/about" component={About} />
+            <Route path="/pet-store-page" component={About} />
             <Route path="/pets" component={PetForm} />
             <Route path="/not-found" exact component={NotFound} />
             <Redirect from="/" exact to="/about" />
